@@ -1,6 +1,6 @@
 import React, {useState, useMemo} from 'react';
-import FirstPage from "./FirstPage";
-import SecondPage from "./SecondPage";
+import FirstPage from "./page/FirstPage";
+import SecondPage from "./page/SecondPage";
 import NavbarItem from './NavbarItem';
 
 import { OpenContext, SetOpenContext } from './context/ControlContext';
